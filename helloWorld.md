@@ -3,6 +3,21 @@
 
 **Hey**
 
-![Image][1]
+My name is Joshua Kave, and I am an incoming freshman. I am majoring in computer science, and I am living at ERC!
 
-[1]: https://www.google.com/url?sa=i&url=http%3A%2F%2Fclipart-library.com%2Fworld-cliparts.html&psig=AOvVaw085T8kVYpPwhkgt-ZcwHcm&ust=1664398190438000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKiKnsnstfoCFQAAAAAdAAAAABAH
+>Hobbies
+* Video games
+* 3d art
+* Golf
+
+---
+
+I am excited to take this course and learn about version control, bash, and so much more!
+
+![Image](world.png)
+
+`Java` is cool
+
+```
+System.out.println("Hello World");
+```
