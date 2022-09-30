@@ -14,7 +14,7 @@ My name is Joshua Kave, and I am an incoming freshman. I am majoring in computer
 
 I am excited to take this course and learn about version control, bash, and so much more!
 
-![Image](world.png)
+![Image](/images/lab0/world.png)
 
 `Java` is cool
 
