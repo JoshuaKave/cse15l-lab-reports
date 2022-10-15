@@ -63,17 +63,17 @@ class NumberServer {
 Here are three screenshots of the search engine adding and showing words in storage.
 
 ![Image](images/lab3/shot1.png)
-</br>
+<br />
 * The methods called here are handleRequest, getPath(), and equals()
 * The only argument taken for these methods is the url. getPath takes no argument, but identifies the path given in the url, which is the part after the "/". Equals() takes a "/" to see if the url is at the / path or not. 
 *   These values do not change
 ![Image](images/lab3/shot2.png)
-<br/>
+<br />
 * The methods called here are handleRequest, getPath, equals, getQuery, split, and add.
 * The arguments taken here are the url for handleRequest, /add and s for equals, = for split, and the query array created when splitting the query in the url for add. There is also the class field list, which is an ArrayList that stores the added words from the query in the url.
 * The argument for equals changes from /add to s, because after checking for /add in the url, equals then checks if the first part of the query equals s.
 ![Image](images/lab3/shot3.png)
-<br/>
+<br />
 * The methods called here are handleRequest, getPath, equals, getQuery, split, contains, size, length, substring, and get.
 * The arguments taken here are the url for handleRequest, /search and s for equals, = for split, a counter integer i for get, the resulting array from split for contains, and 0 and display.length() - 2 for substring. There is also the class field list which is an ArrayList that stores words in it, and is used to display words when the search path is called.
 * The argument for equals changes from /search to s, because after checking for /search in the url, equals then checks if the first part of the query equals s. The counter integer i also changes because it is in a loop, and it is used as the parameter for get, which gets elements indexed at i in the class field list.
