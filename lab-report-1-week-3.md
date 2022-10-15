@@ -67,11 +67,13 @@ Here are three screenshots of the search engine adding and showing words in stor
 * The methods called here are handleRequest, getPath(), and equals()
 * The only argument taken for these methods is the url. getPath takes no argument, but identifies the path given in the url, which is the part after the "/". Equals() takes a "/" to see if the url is at the / path or not. 
 *   These values do not change
+
 ![Image](images/lab3/shot2.png)
 <br />
 * The methods called here are handleRequest, getPath, equals, getQuery, split, and add.
 * The arguments taken here are the url for handleRequest, /add and s for equals, = for split, and the query array created when splitting the query in the url for add. There is also the class field list, which is an ArrayList that stores the added words from the query in the url.
 * The argument for equals changes from /add to s, because after checking for /add in the url, equals then checks if the first part of the query equals s.
+
 ![Image](images/lab3/shot3.png)
 <br />
 * The methods called here are handleRequest, getPath, equals, getQuery, split, contains, size, length, substring, and get.
@@ -101,6 +103,7 @@ When the code checks for the lowest number, it removes all numbers of the lowest
 An example fix would be as follows, where check is a boolean intialized as true:
 
 ![Image](images/lab3/bug%201%20fix.png)
+
 Here, check is set to false once a lowest number is found, which skips that specific lowest number, but includes every other lowest number since check is now always false.
 
 **Bug 2**
