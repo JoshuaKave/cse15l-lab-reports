@@ -1,1 +1,1 @@
-![](lab0screenshot.png)
+![](/images/lab0/lab0screenshot.png)
